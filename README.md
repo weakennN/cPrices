@@ -52,4 +52,4 @@ Once the application is running:
 
 - It will begin fetching prices for the specified cryptocurrencies listed in the SYMBOLS environment variable.
 - Updates will be sent through the configured Telegram bot.
-- To track different cryptocurrencies, modify the SYMBOLS variable in the ```.env``` file.
+- To track different cryptocurrencies, modify the ```SYMBOLS``` variable in the ```.env``` file.
