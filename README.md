@@ -45,7 +45,7 @@ Before you begin, ensure you have the following installed:
 4. **Run the Application**:
    Use the following command to start the application:
    ```bash
-   go run main.go
+   go run server.go
 
 ## Usage
 
