@@ -36,7 +36,7 @@ Before you begin, ensure you have the following installed:
 3. **Create the .env file**:
    In the root of your project, create a file named ```.env``` and add the following environment variables:
    ```bash
-   SERVER_ADDRESS=          # Address to run the server (e.g., localhost:8080)
+   SERVER_ADDRESS=         # Address to run the server (e.g., localhost:8080)
    SYMBOLS=                # Comma-separated list of cryptocurrencies (e.g., bitcoin,solana)
    TELEGRAM_BOT_API_TOKEN= # Your Telegram Bot API token
    TELEGRAM_CHAR_ID=       # Your Telegram chat ID where messages will be sent
