@@ -47,7 +47,7 @@ Before you begin, ensure you have the following installed:
    ```bash
    go run main.go
 
-### Usage
+## Usage
 
 Once the application is running:
 
@@ -55,13 +55,13 @@ Once the application is running:
 - Updates will be sent through the configured Telegram bot.
 - To track different cryptocurrencies, modify the ```SYMBOLS``` variable in the ```.env``` file.
 
-### Note
+## Note
 
 This bot was created for personal use because I found it tedious to check coin prices on various exchanges manually. It’s also part of my journey in learning and exploring the Go programming language.
 
 Feel free to contribute if you'd like! :)
 
-### Feature futures
+## Feature futures
 
 This section is for me to keep track of what to implement next. 😄
 
