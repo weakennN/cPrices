@@ -27,3 +27,29 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/weakennN/cPrices.git
    cd cPrices
+
+2. **Install Dependencies**: 
+   Use Go modules for dependency management. Run:
+   ```bash
+   go mod tidy
+
+3. **Create the .env file**:
+   In the root of your project, create a file named ```.env``` and add the following environment variables:
+   ```bash
+   SERVER_ADDRESS=
+   SYMBOLS=
+   TELEGRAM_BOT_API_TOKEN=
+   TELEGRAM_CHAR_ID=
+
+4. **Run the Application**:
+   Use the following command to start the application:
+   ```bash
+   go run main.go
+
+### Usage
+
+Once the application is running:
+
+- It will begin fetching prices for the specified cryptocurrencies listed in the SYMBOLS environment variable.
+- Updates will be sent through the configured Telegram bot.
+- To track different cryptocurrencies, modify the SYMBOLS variable in the ```.env``` file.
